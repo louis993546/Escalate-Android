@@ -1,8 +1,8 @@
 [versions]
-agp = "8.3.0-alpha15"
+agp = "8.4.0-alpha01"
 kotlin = "1.9.21"
 kotlinCompiler = "1.5.6" # https://developer.android.com/jetpack/androidx/releases/compose-kotlin
-jvmTarget = "19"
+jvmTarget = "21"
 coreKtx = "1.12.0"
 junit = "4.13.2"
 junitVersion = "1.1.5"
@@ -26,6 +26,7 @@ androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-toolin
 androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
